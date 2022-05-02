@@ -1,0 +1,59 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Login_Page_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220429-155738\\backstop_default_Login_Page_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Login_Page_0_document_0_phone.png",
+        "label": "Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "http://localhost:4200",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.21935483870967742,
+          "misMatchPercentage": "0.22",
+          "analysisTime": 20
+        },
+        "diffImage": "..\\bitmaps_test\\20220429-155738\\failed_diff_backstop_default_Login_Page_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Login_Page_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220429-155738\\backstop_default_Login_Page_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Login_Page_0_document_1_tablet.png",
+        "label": "Login Page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200",
+        "referenceUrl": "http://localhost:4200",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.08188883463541666,
+          "misMatchPercentage": "0.08",
+          "analysisTime": 24
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
