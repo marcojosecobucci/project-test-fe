@@ -1,3 +1,16 @@
-<p>
-  beta-test works!
-</p>
+beta-test works!
+<button (click)="onEditButtonClick()">beta</button>
+
+
+<select formControlName="selectedProfile" (change)="onProfileChange()" class="select-profile">
+  <option *ngFor="let prf of profiles" value="prf">
+    {{ prf.name }}
+  </option>
+</select>
+<p>{{selectedProfile.value.name}}</p>
+<select formControlName="selectedCity" (change)="onCityChange()" class="select-city">
+  <option *ngFor="let ct of cities" value="ct">
+    {{ ct.name }}
+  </option>
+</select>
+<div>{{selectedCity.value.name}}</div>
